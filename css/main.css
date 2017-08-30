@@ -2,220 +2,202 @@
 	box-sizing: border-box;
 }
 
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
 body {
-    background-color: black
-}
-header {
-    height: 8%
-    
-}
-
-#page {
-    background-image: url("../img/backdrop.jpg");
-    margin-left: 10%;
-    margin-top: 10vh;
-    margin-bottom: 2%;
-    padding-bottom: 40px;
-     box-shadow: inset 0 0 5em 1em #000;
-    height: 820px;
-    width: 80%;
-}
-
-#flyer {
-    background-color: black;
-    background-image: url(../img/jkjeventimg2.png);
-    background-size: cover;
-    height: 680px;
-    width: 420px;
-    margin-left: 25vw;
-    border:  4px solid #FDCF53;
-    padding-top: -40px;
-}
-
-/*flyer text*/
-
-#lyerText {
-    display: grid;
-    position: relative;
-    grid-template-columns: .55fr .2fr 1fr;
-    grid-template-rows: .01fr .1fr;
-    grid-column-gap: .5px;
-    grid-row-gap: -30px;
-    padding-left: 5%;
-    width: 90%;
-    color: white;
-    height: 500px;
-    text-align: center;
-    padding-top: 420px;
-    
-}
-
-.yellowboard {
-    border-top: 6px solid #FDCF53;
-    padding-top: 20px;
-    
-}
-
-.anime {
-    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-    animation-name: example;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
-
-@-webkit-keyframes example {
-    from {color: white;}
-    to {color: #FDCF53;}
-}
-
-
-
-.foot{
-    
-    background-color: #FDCF53;
-    border-right:  8px solid #FDCF53;
-    width: 420px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    margin-left: 25vw;
-    text-align: center;
-    
-    
+	background-image: url("../pictures/texturgrey.png");
+	/*background-color: rgb(189, 188, 188);*/
+	background-repeat: repeat;
 }
 
 h1{
-    margin-top: 10px;
-    font-family: 'Rammetto One', cursive;
-    font-size: 2em;
-    vertical-align: bottom;
-    margin: 0 auto;
-    line-height: 1.2;
+	color: #ffffff;
+	background-image: url("../pictures/Cool-Black-Pattern-Wallpaper.jpg");
+	background-repeat: repeat-x;
+	background-color: #5c0101;
+	padding: .75em 0;
+	margin-top: 1px;
+	border-bottom: 1px;
+	border-color: 	#3D3D5C;
+	font-family: 'Rock Salt', 'cursive';
+	font-size: 4.750em;
+	text-align: center;
+	text-shadow: 2px 3px .8px #b4b4b4;
+	margin: 0;
 }
+/*h1 a {
+	text-decoration: none;
+}*/
 
-h1:hover {
-    color: goldenrod;
+
+
+
+
+footer {
+   position:static;
+	 border-top: 100px;
+   bottom:0;
+   width:100%;
+   height:40px;   /* Height of the footer */
+   background:#171717
 }
-
-h2 {
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 1.15em;
-    line-height: 1.2;
-}
-
-p {
-    font-family: 'Quattrocento Sans', sans-serif;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-a:hover {
-    color: #444444;
-}
-
-.threads {
-    color: white;
-}
-
-.threads:hover {
-    color: #f9f9f9;
-    text-decoration: underline;
-    font-weight: bold; 
-}
-
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 800px) 
- { 
-      
-      #page {
-          
-          background-color: black;
-          background-image: none;
-          height: 40vh;
-          width: 80%;
-      }
-      
-      #flyer {
-          background-color: black;
-    background-image: url(../img/jkjeventimg2.png);
-    background-size: cover;
-    height: 90%;
-    width: 100%;
-    margin-left: -.5vw;
-    border:  4px solid #FDCF53;
-    padding-top: -40px;
-      }
-      
-      #lyerText {
-    display: grid;
-    position: relative;
-    grid-template-columns: .55fr .2fr 1fr;
-    grid-template-rows: .01fr .1fr;
-    grid-column-gap: 1px;
-    grid-row-gap: -30px;
-    padding-left: 8%;
-    width: 90%;
-    color: white;
-    height: 100%;
-    text-align: center;
-    padding-top: 850px;
+#keeper {
+   position: static;
+	 margin-top: 215px;
 
 }
 
-      .foot{
-    
-    background-color: #FDCF53;
-    border-right:  8px solid #FDCF53;
-    width: 100%;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    margin-left: -.5vw;
-    text-align: center;
-          
-      }
-      
-    h1{
-    margin-top: 10px;
-    font-family: 'Rammetto One', cursive;
-    font-size: 3em;
-    vertical-align: bottom;
-    margin: 0 auto;
-    line-height: 1.2;
+.dropdown-menu > li > a {color: #000000;}
+
+.fa-twitter {
+  color: white;
 }
-      
-      h2 {
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 1.8em;
-    line-height: 1.5;
+.fa-soundcloud {
+  color: white;
+}
+.fa-facebook {
+  color: white;
+}
+.fa-instagram {
+  color: white;
+}
+.fa-envelope-o {
+  color: white;
+}
+/*--------Font----------*/
+
+h3 {
+	font-family: 'Noto Serif', serif;
+	color: white;
+
+}
+
+h4, small {
+	font-family: 'Noto Serif', serif;
+	color: white;
+
+}
+
+div a div h4 {
+	text-align: center;
+	font-size: 1em;
 }
 
 p {
-    font-family: 'Quattrocento Sans', sans-serif;
-    font-size: 2.2em;
+	font-family: 'Noto Serif', serif;
+	color: white;
+
 }
+
 
 a {
-    text-decoration: none;
-    color: black;
+	font-family: 'Noto Serif', serif;
+	color: white;
+
 }
+
 
 a:hover {
-    color: #444444;
-}
-      
-
-.threads {
-    color: white;
-}
-
-.threads:hover {
-    color: #f9f9f9;
-    text-decoration: underline;
-    font-weight: bold; 
-}
+	font-family: 'Noto Serif', serif;
+	color: #A30000;
 
 }
+
+
+.move-down {
+	padding-top: 6px;
+	padding-left: 60px;
+}
+
+.break {
+	padding-top: 10px;
+	border-bottom: 2px solid #b4b4b4;
+}
+
+.well {
+	background: rgb(31, 31, 31);
+}
+
+.thumbnail {
+    background: rgb(31, 31, 31);
+}
+
+
+#ender {
+	padding-top: 25px;
+	border-bottom: 2px solid #b4b4b4;
+}
+
+#bottom-ender {
+	padding-top: 50px;
+	border-bottom: 2px solid #b4b4b4;
+}
+
+#brand-size {
+	height: 100%;
+}
+
+.pager li a{
+	background-color: white;
+	color: inherit;
+}
+
+form {
+	text-align: center;
+}
+/*nav {
+	margin-top: -15px;
+	border-bottom: solid 2px #293329;
+
+}
+
+nav ul {
+		height: 50px;
+
+
+}
+
+nav ul li {
+
+	font-family: 'IM Fell English', sans-serif;
+	font-size: 1.275em;
+
+	float: left;
+	display: inline-block;
+	border: 2px solid #293329;
+	padding: 5px 30px;
+
+
+}
+*/
+/*.spacerton {
+
+	background-color: #000000;
+text-decoration: none;
+	color: #A30000;
+
+}
+
+*/
+
+/*
+a:hover {
+	color: #d6d6d6 ;
+}*/
+
+/*.clearfix {
+    overflow: auto;
+}
+
+
+nav {
+	border-color: #777777;*/*/
+
+
+/*}
